@@ -1,0 +1,14 @@
+@import "base.scss";
+//头部（topNav.html）
+header{
+  height: 55px;background: nth($gray,1);
+  nav{margin: 0 auto;width: $w;}
+}
+
+//身体公共部位
+.wrap{
+  margin: 0 auto;width: $w;
+}
+
+
+//尾部（footer.html）

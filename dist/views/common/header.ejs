@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="stylesheet" href="../../../dist/css/common/reset.css" data-embed/>
+  <link rel="stylesheet" href="../../../dist/css/common/common.css" data-embed/>
+  <script>
+    syncData = JSON.parse('<%- JSON.stringify(syncData) %>');
+  </script>
